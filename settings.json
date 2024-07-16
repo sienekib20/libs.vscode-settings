@@ -1,0 +1,18 @@
+{
+    "editor.fontSize":17,
+    "editor.minimap.enabled": true,
+    "window.zoomLevel": -1,
+    "editor.wordWrap": "on",
+    "dotnet.defaultSolution": "gestao/JasperPHP/phpoffice/phpexcel/Documentation/assets/ClassDiagrams/ClassDiagrams.sln",
+      // Configurações adicionais
+    // "editor.tabSize": 2,                // Tamanho da tabulação
+    // "editor.formatOnSave": true,        // Formatar o código ao salvar
+    // "editor.lineHeight": 24,            // Altura da linha
+    // "editor.fontFamily": "Fira Code",   // Fonte do editor
+    // "files.exclude": {
+    // "**/*.js": { "when": "$(basename).ts" }  // Excluir arquivos .js quando existir um equivalente .ts
+    // },
+    // "typescript.check.tscVersion": false,  // Desativar verificação da versão do TypeScript
+    // "git.autofetch": true,                // Buscar automaticamente atualizações do Git
+    // "workbench.colorTheme": "Default Dark+" // Tema de cor do ambiente de trabalho
+}
