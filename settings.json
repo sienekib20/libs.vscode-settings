@@ -1,18 +1,48 @@
 {
-    "editor.fontSize":17,
-    "editor.minimap.enabled": true,
-    "window.zoomLevel": -1,
-    "editor.wordWrap": "on",
-    "dotnet.defaultSolution": "gestao/JasperPHP/phpoffice/phpexcel/Documentation/assets/ClassDiagrams/ClassDiagrams.sln",
-      // Configurações adicionais
-    // "editor.tabSize": 2,                // Tamanho da tabulação
-    // "editor.formatOnSave": true,        // Formatar o código ao salvar
-    // "editor.lineHeight": 24,            // Altura da linha
-    // "editor.fontFamily": "Fira Code",   // Fonte do editor
-    // "files.exclude": {
-    // "**/*.js": { "when": "$(basename).ts" }  // Excluir arquivos .js quando existir um equivalente .ts
-    // },
-    // "typescript.check.tscVersion": false,  // Desativar verificação da versão do TypeScript
-    // "git.autofetch": true,                // Buscar automaticamente atualizações do Git
-    // "workbench.colorTheme": "Default Dark+" // Tema de cor do ambiente de trabalho
+  /**-------------------------------
+  * SETTINGS - 1st COMMIT
+  *--------------------------------*/
+  "editor.fontSize": 17,
+  "editor.minimap.enabled": true,
+  "window.zoomLevel": -1,
+  "editor.wordWrap": "on",
+  "dotnet.defaultSolution": "gestao/JasperPHP/phpoffice/phpexcel/Documentation/assets/ClassDiagrams/ClassDiagrams.sln",
+  /**-------------------------------------- 
+  ** Configurações adicionais
+  ----------------------------------------*/
+  //"editor.tabSize": 2,                
+  "editor.formatOnSave": true,        
+  "editor.lineHeight": 24,            
+  "files.exclude": {
+  "**/*.js": { "when": "$(basename).ts" } 
+  },
+  "typescript.check.tscVersion": false,  
+  "git.autofetch": true,                
+  // "workbench.colorTheme": "Default Dark+",
+  //*-------------------------------------
+  //*
+  //*
+  //*
+  /**-------------------------------
+  * SETTINGS - 17 Julho 2024
+  *--------------------------------*/
+  "css.format.enable": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.snippetSuggestions": "top",
+  "workbench.iconTheme": "material-icon-theme",
+  "autoprefixer.formatOnSave": true,
+  "autoprefixer.options": {
+    "browsers": [
+      "last 2 versions",
+      "not dead",
+      "not < 0.2%",
+      "Firefox ESR",
+      "maintained node versions"
+    ]
+  },
+  "workbench.colorTheme": "Cobalt2",
+  "editor.tabSize": 3,
+  "debug.console.fontSize": 15
 }
