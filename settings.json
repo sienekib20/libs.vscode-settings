@@ -44,5 +44,19 @@
   },
   "workbench.colorTheme": "Cobalt2",
   "editor.tabSize": 3,
-  "debug.console.fontSize": 15
+  "debug.console.fontSize": 15,
+
+  /**-------------------------------
+  * SETTINGS - 18 Julho 2024
+  *--------------------------------*/
+  // "workbench.colorTheme": "Material Theme Darker"
+  "typescript.validate.enable": false,
+
+  "liveSassCompile.settings.formats": [
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/path/to/your/css/folder"
+      }
+  ]
 }
